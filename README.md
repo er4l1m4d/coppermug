@@ -9,7 +9,7 @@ realm's `Render` output, so the app runs in gnoweb with no server, no database
 and no JavaScript.
 
 **Live on the Gno.land testnet:**
-<https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/coppermug>
+<https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/v2/coppermug>
 
 > Gold is tavern money minted by the realm. It has no monetary value and cannot
 > leave the realm.

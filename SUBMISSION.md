@@ -7,7 +7,7 @@ creativity 20%, docs and demo 20%.
 
 | Requirement | Status | Notes |
 |---|---|---|
-| Live deployment on the Gno.land testnet | ✅ | [Live realm](https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/coppermug) on `onyx-1`, seeded with real activity |
+| Live deployment on the Gno.land testnet | ✅ | [Live realm](https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/v2/coppermug) on `onyx-1`, seeded with real activity |
 | Public code repository | ✅ | [github.com/er4l1m4d/coppermug](https://github.com/er4l1m4d/coppermug) |
 | Genuine Gno component (realm or package) | ✅ | Stateful realm with six routes and full state |
 | README explaining the project and usage | ✅ | `README.md` |
