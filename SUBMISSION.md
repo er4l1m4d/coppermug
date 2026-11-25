@@ -46,3 +46,25 @@ creativity 20%, docs and demo 20%.
 - Whether the deploy key is also the prize wallet.
 - Optional: reusable `p/` package for the gold ledger, to satisfy the retention
   prize's "another project imports it" criterion.
+
+## Submission copy
+
+**Project name:** Copper Mug
+
+**Tagline:** A social tavern and dice game that lives entirely on-chain.
+
+**Short description:**
+
+Copper Mug is an on-chain social tavern for Gno.land. Adventurers take a seat
+with a name and a trade, talk in a common room, tip and cheer each other, buy the
+room a round, and gamble their gold in the Cup — a push-your-luck dice game.
+Every post, tip, cheer and roll is realm state, and the entire interface is the
+realm's `Render` output, so it runs in gnoweb with no server, database or
+JavaScript. Built with Gno, covered by 19 unit tests, and live on the Onyx
+testnet.
+
+**Links:**
+
+- Live: https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/v2/coppermug
+- Code: https://github.com/er4l1m4d/coppermug
+- Video: `demo.mp4` in the repository
