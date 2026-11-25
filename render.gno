@@ -31,19 +31,29 @@ func Render(cur realm, path string) string {
 // links
 // ---------------------------------------------------------------------------
 
-func realmURL(pkg, suffix string) string {
-	if suffix == "" {
-		return "/r/" + pkg
+// realmBase is the URL path of this realm. gnoweb URLs drop the chain
+// domain, so gno.land/r/<addr>/coppermug becomes /r/<addr>/coppermug.
+func realmBase(pkg string) string {
+	if i := strings.Index(pkg, "/"); i > 0 && strings.Contains(pkg[:i], ".") {
+		return "/" + pkg[i+1:]
 	}
-	return "/r/" + pkg + ":" + suffix
+	return "/" + pkg
+}
+
+func realmURL(pkg, suffix string) string {
+	base := realmBase(pkg)
+	if suffix == "" {
+		return base
+	}
+	return base + ":" + suffix
 }
 
 func actionURL(pkg, fn string) string {
-	return "/r/" + pkg + "$help&func=" + fn
+	return realmBase(pkg) + "$help&func=" + fn
 }
 
 func actionURL1(pkg, fn, key, value string) string {
-	return "/r/" + pkg + "$help&func=" + fn + "&" + key + "=" + strings.ReplaceAll(value, " ", "%20")
+	return realmBase(pkg) + "$help&func=" + fn + "&" + key + "=" + strings.ReplaceAll(value, " ", "%20")
 }
 
 // profileURL links to a profile, encoding the spaces names may contain.

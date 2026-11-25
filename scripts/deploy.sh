@@ -24,7 +24,7 @@ case "$ADDR" in
 esac
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-PKG_PATH="gno.land/r/${ADDR}/coppermug"
+PKG_PATH="${PKG_PATH:-gno.land/r/${ADDR}/coppermug}"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 

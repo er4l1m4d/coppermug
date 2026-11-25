@@ -477,6 +477,12 @@ func TestRenderPages(cur realm, t *testing.T) {
 	if !strings.Contains(home, "Copper Mug") || !strings.Contains(home, "1 adventurer") {
 		t.Fatal("home page is missing its header or stats")
 	}
+	if strings.Contains(home, "/r/gno.land/") {
+		t.Fatal("links must drop the chain domain, or they 404 on a testnet host")
+	}
+	if !strings.Contains(home, "](/r/coppermug/v0:feed)") {
+		t.Fatal("nav links do not point at the realm path")
+	}
 	if !strings.Contains(home, "u/Mira") {
 		t.Fatal("home page should link to profiles")
 	}
