@@ -11,15 +11,13 @@ creativity 20%, docs and demo 20%.
 | Public code repository | ✅ | [github.com/er4l1m4d/coppermug](https://github.com/er4l1m4d/coppermug) |
 | Genuine Gno component (realm or package) | ✅ | Stateful realm with six routes and full state |
 | README explaining the project and usage | ✅ | `README.md` |
-| Demo video showing it working | ⏳ | Shot list below |
+| Demo video showing it working | ✅ | `demo.mp4`, 46 seconds, captioned |
 | Short project description | ✅ | First paragraph of `README.md` |
 | Name has no "Gno" prefix or official branding | ✅ | "Copper Mug" |
 
 ## Before submitting
 
-1. Record and upload the demo video.
-2. Paste the repository and deployment links into the DoraHacks submission.
-3. Register on DoraHacks if not already done.
+1. Register on DoraHacks and paste the repository, deployment and video links into the submission.
 
 ## Demo video shot list (90–120 seconds)
 

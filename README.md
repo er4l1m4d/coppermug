@@ -11,6 +11,8 @@ and no JavaScript.
 **Live on the Gno.land testnet:**
 <https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/v2/coppermug>
 
+**Demo video:** [demo.mp4](demo.mp4) — 46 seconds, captioned, no audio.
+
 > Gold is tavern money minted by the realm. It has no monetary value and cannot
 > leave the realm.
 
