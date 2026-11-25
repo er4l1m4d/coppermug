@@ -8,12 +8,15 @@ Every post, tip, cheer and dice roll is realm state. The entire front end is the
 realm's `Render` output, so the app runs in gnoweb with no server, no database
 and no JavaScript.
 
+**Live on the Gno.land testnet:**
+<https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/coppermug>
+
 > Gold is tavern money minted by the realm. It has no monetary value and cannot
 > leave the realm.
 
 ![Copper Mug home page](assets/home.png)
 
-*The realm as rendered by gnoweb: stats, tonight's tales, and open cups.*
+*The live realm as rendered by gnoweb: stats, tonight's tales, and open cups.*
 
 ---
 

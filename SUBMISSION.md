@@ -7,8 +7,8 @@ creativity 20%, docs and demo 20%.
 
 | Requirement | Status | Notes |
 |---|---|---|
-| Live deployment on the Gno.land testnet | ⏳ | Deploy path tested locally; needs a faucet-funded key on `onyx-1` |
-| Public code repository | ⏳ | Working tree ready; needs `git init`, a remote and a push |
+| Live deployment on the Gno.land testnet | ✅ | [Live realm](https://onyx.testnets.gno.land/r/g1jjnn7hay2fyzufdqhjcqn50udc55h6tdr4yx8y/coppermug) on `onyx-1`, seeded with real activity |
+| Public code repository | ✅ | [github.com/er4l1m4d/coppermug](https://github.com/er4l1m4d/coppermug) |
 | Genuine Gno component (realm or package) | ✅ | Stateful realm with six routes and full state |
 | README explaining the project and usage | ✅ | `README.md` |
 | Demo video showing it working | ⏳ | Shot list below |
@@ -17,12 +17,9 @@ creativity 20%, docs and demo 20%.
 
 ## Before submitting
 
-1. Fund a key on `onyx-1` at <https://faucet.gno.land>.
-2. Run `./scripts/deploy.sh <key> <g1-address>`.
-3. Call `Join` once on the deployed realm so the page is not empty for judges.
-4. Push the repository and put the link in the DoraHacks submission.
-5. Record and upload the demo.
-6. Add the deployment link to the README and the DoraHacks description.
+1. Record and upload the demo video.
+2. Paste the repository and deployment links into the DoraHacks submission.
+3. Register on DoraHacks if not already done.
 
 ## Demo video shot list (90–120 seconds)
 
