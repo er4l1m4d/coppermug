@@ -8,11 +8,15 @@
 # Optional:
 #   GNO_PASSWORD=...   piped to gnokey instead of prompting
 #   PKG=gno.land/r/coppermug/v0
+#   CHAIN_ID=dev  REMOTE=http://localhost:26657
+#   GAS_FEE=3000000ugnot  GAS_WANTED=10000000
 set -uo pipefail
 
 PKG="${PKG:-gno.land/r/coppermug/v0}"
 REMOTE="${REMOTE:-http://localhost:26657}"
 CHAIN_ID="${CHAIN_ID:-dev}"
+GAS_FEE="${GAS_FEE:-3000000ugnot}"
+GAS_WANTED="${GAS_WANTED:-10000000}"
 
 run_gnokey() {
   if [ -n "${GNO_PASSWORD:-}" ]; then
@@ -34,7 +38,7 @@ tx() {
   local out
   out=$(run_gnokey maketx call \
     -pkgpath "$PKG" -func "$fn" "${args[@]}" \
-    -gas-fee 3000000ugnot -gas-wanted 10000000 \
+    -gas-fee "$GAS_FEE" -gas-wanted "$GAS_WANTED" \
     -chainid "$CHAIN_ID" -remote "$REMOTE" "${extra[@]}" "$key" 2>&1)
 
   if echo "$out" | grep -q "OK!"; then
